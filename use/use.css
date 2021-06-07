@@ -1,0 +1,39 @@
+header nav {
+  float: left;
+  margin-top: 10px;
+  font-size: 140%;
+}
+
+a {
+  text-decoration-line: none;
+  color: azure;
+}
+
+ul {
+  list-style:none
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color:dimgray
+}
+
+h1 {
+  margin: 10px;
+  padding:20px;
+  text-align: right;
+  color:dimgray
+}
+
+
+
+body ol {
+  text-align: center;
+}
+
+footer {
+  color: aliceblue;
+}

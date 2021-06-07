@@ -1,0 +1,31 @@
+body{
+  margin-top: 130px;
+  background-color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+}
+
+#imgDiv {
+  width:1000px;
+  height:500px;
+  position: relative;
+  border: 0px solid rgb(255, 255, 255);
+}
+
+#imgDiv img {
+  width: 1000px;
+  height:500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -100px;
+}
+
+#imgDiv>#funny {
+  opacity: 0;
+  transition: opacity 1s
+}
+
+#imgDiv:hover>#funny {
+  opacity: 1;
+}
